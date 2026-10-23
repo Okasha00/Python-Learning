@@ -14,3 +14,5 @@ def greet(name):
     return
 user_name=str(input("Enter the name:"))
 greet(user_name)
+#greet(user_name *2)
+
