@@ -15,3 +15,12 @@ def get_sum():
     return a+b
 S=get_sum()
 print("The sum is:", S)
+
+#--------------------------------------------------------------------#
+def square(number):
+    return number * number
+
+num = int(input("Enter a number: "))
+result = square(num)
+
+print("The Square is :", result)
