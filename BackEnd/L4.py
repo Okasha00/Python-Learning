@@ -22,4 +22,6 @@ def place_order(stock, quantity):
     else:
         return "Order placed"
 
-print(place_order(10,15))
+print(place_order(10, 15))
+print(place_order(10, 3))
+print(place_order(10, 0))
