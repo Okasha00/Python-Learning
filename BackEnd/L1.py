@@ -7,5 +7,13 @@ print("Bill Calculation")
 
 Qty=int(input("Enter the Quantity:"))
 price = int(input("Enter the Price:"))
+
+
+
 bill = Qty * price
-print("Total bill is:",bill)
+discount = 0 
+if bill > 500:
+    discount = bill * 0.12
+    bill = bill - discount
+    
+print("Total bill is:",bill,"PKR", "The Discount is:",discount,"PKR")
