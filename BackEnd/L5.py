@@ -8,11 +8,14 @@
 
 
 def check_login(username,password):
-    if username == '' and password == '':
+    if username == '' or password == '':
         return "Fields are required"
     elif username == "admin" and password == "1234":
         return "Login successful"
     else:
         return "Invalid username or password"
 
+
 print(check_login("admin", "1234"))
+print(check_login("admin", ""))
+print(check_login("admin", "wrong"))
